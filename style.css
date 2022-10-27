@@ -9,3 +9,12 @@
 .nav-item .active{
     border-bottom: 5px solid skyblue;
 }
+.fa-magnifying-glass{
+    color: gray;
+}
+.direc{
+    transition: 0.5s;
+}
+.direc:hover{
+    color: white !important;
+}
