@@ -62,27 +62,49 @@
             </ul> 
         </div>
       </nav>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-black">
-        <div class="container-fluid">     
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <form class="d-flex rounded-4 bg-dark">
-              <i class="fa-solid fa-magnifying-glass align-self-center p-2"></i>
-              <input class="bg-dark me-3 border-0 search-box" type="text" placeholder="Search store">
-            </form>
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="text-white p-2 text-decoration-none d-inline" href="#">Discover</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-secondary p-2 text-decoration-none d-inline direc" href="#">Browse</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-secondary p-2 text-decoration-none d-inline direc" href="#">News</a>
-              </li>
-            </ul>
+      <div class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black p-5 ms-5">
+          <div class="container-fluid">     
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <form class="d-flex rounded-4 bg-dark">
+                <i class="fa-solid fa-magnifying-glass align-self-center p-2"></i>
+                <input class="bg-dark me-3 border-0 search-box text-white" type="text" placeholder="Search store">
+              </form>
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="text-white p-2 text-decoration-none d-inline" href="#">Discover</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-secondary p-2 text-decoration-none d-inline direc" href="#">Browse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-secondary p-2 text-decoration-none d-inline direc" href="#">News</a>
+                </li>
+              </ul>
+            </div>
           </div>
+        </nav>
+        <div class="content d-flex justify-content-center">
+          <div class="card main-content me-4 bg-black" style="width:950px; height:500px">
+            <img class="card-img-top rounded-4" src="/img/sale.png" alt="Sale">
+            <div class="card-img-overlay d-flex justify-content-end flex-column text-white fw-bold">
+              <h4 class="card-title">LAST CHANCE TO SAVE</h4>
+              <p class="card-text fs-4">Save big on great games. Get up to 75% off before time runs out. Sale ends on November 1!</p>
+              <a href="#" class="btn btn-light fs-4 w-25">SAVE NOW</a>
+            </div>
+          </div> 
+            <div class="tab-content">
+              <ul class="list-group">
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/sale.png" alt="Sale">Halloween Sale</li>
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/dead-by-daylight.jpg" alt="dead-by-daylight">Dead By Daylight</li>
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/gta-v.jpg" alt="gta-v">Grand Theft Auto V</li>
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/red-dead-2.jpg" alt="red-dead-2">Red Dead Redemption 2</li>
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/resident-evil-village.jpg" alt="resident-evil-village">Resident Evil 8 Village</li>
+                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/wwz.jpg" alt="wwz">World War Z</li>
+              </ul>
+            </div>
         </div>
-      </nav>
+      </div>
     <script src="script.js"></script>
 </body>
 </html>
