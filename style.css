@@ -27,6 +27,10 @@
     height: 100vh;
     background-color: black;
 }
+.main-content{
+    width: 950px;
+    height: 500px;
+}
 .tab-img{
     width: 50px;
     height: 75px;
@@ -40,5 +44,10 @@
 .list-group-item:hover{
     background-color: rgba(255,255,255,.08);
     border-radius: 16px;
+    color: white;
+}
+.tab-active{
+    background-color: rgba(255,255,255,.08);
+    border-radius: 16px !important;
     color: white;
 }
