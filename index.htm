@@ -85,7 +85,7 @@
           </div>
         </nav>
         <div class="content d-flex justify-content-center">
-          <div id="demo" class="carousel slide main-content me-4 bg-black" data-bs-ride="carousel">
+          <div id="demo" class="carousel slide main-content bg-black d-flex justify-content-center w-75" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="/img/sale.png" alt="sale" class="d-block w-100 rounded-4">
@@ -136,17 +136,15 @@
                 </div>
               </div>
             </div>  
-          </div>
-            <div class="tab-content">
-              <ul class="list-group">
-                <li class="list-group-item tab-active"><img class="img-fluid tab-img" src="/img/sale.png" alt="Sale">Halloween Sale</li>
-                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/dead-by-daylight.jpg" alt="dead-by-daylight">Dead By Daylight</li>
-                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/gta-v.jpg" alt="gta-v">Grand Theft Auto V</li>
-                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/red-dead-2.jpg" alt="red-dead-2">Red Dead Redemption 2</li>
-                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/resident-evil-village.jpg" alt="resident-evil-village">Resident Evil 8 Village</li>
-                <li class="list-group-item"><img class="img-fluid tab-img" src="/img/wwz.jpg" alt="wwz">World War Z</li>
-              </ul>
-            </div>
+                  <div class="carousel-indicators d-flex flex-column ms-4">
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"><img class="img-fluid tab-img" src="/img/sale.png" alt="Sale">Halloween Sale</a>
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="1"><img class="img-fluid tab-img" src="/img/dead-by-daylight.jpg" alt="dead-by-daylight">Dead By Daylight</a>
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="2"><img class="img-fluid tab-img" src="/img/gta-v.jpg" alt="gta-v">Grand Theft Auto V</a>
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="3"><img class="img-fluid tab-img" src="/img/red-dead-2.jpg" alt="red-dead-2">Red Dead Redemption 2</a>
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="4"><img class="img-fluid tab-img" src="/img/resident-evil-village.jpg" alt="resident-evil-village">Resident Evil 8 Village</a>
+                    <a type="button" data-bs-target="#demo" data-bs-slide-to="5"><img class="img-fluid tab-img" src="/img/wwz.jpg" alt="wwz">World War Z</a>
+                  </div>
+          </div> 
         </div>
       </div>
     <script src="script.js"></script>
