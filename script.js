@@ -6,4 +6,9 @@ $(function(){
       }, function(){
         $("#global-list").removeClass("show")
       });
+      $("#spotlight").hover(function(){
+        $("#spotlight span").addClass("tag-high")
+      }, function(){
+        $("#spotlight span").removeClass("tag-high")
+      });
 })
