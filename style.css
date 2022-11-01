@@ -33,17 +33,18 @@ body{
 }
 .tab-img{
     width: 50px;
-    height: 75px;
+    height: 65px;
     object-fit: cover;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 .carousel-indicators [data-bs-target]{
     background: none;
     text-indent: 0;
     width: 250px;
-    height: 100px;
+    height: 60px;
     text-decoration: none;
     color: white !important;
+    margin-top: 2px;
 }
 .carousel-indicators{
     position: relative;
@@ -61,4 +62,11 @@ body{
 .tag-high{
     transition: 0.5s;
     margin-left: 10px;
+}
+.three-card img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.three-card div a:hover{
+    border-bottom: 2px solid white !important;
 }
